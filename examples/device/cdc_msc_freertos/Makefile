@@ -12,6 +12,7 @@ INC += \
 
 # Example source
 EXAMPLE_SOURCE = \
+	src/heap_2.c \
 	src/freertos_hook.c \
 	src/main.c \
 	src/msc_disk.c \
