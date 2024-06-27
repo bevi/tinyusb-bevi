@@ -11,6 +11,7 @@ INC += \
 	$(TOP)/$(FREERTOS_PORTABLE_SRC) \
 
 # Example source
+# Updated by Nikhil to include FreeRTOS heap implementation to get working on DeVito Board
 EXAMPLE_SOURCE = \
 	src/heap_2.c \
 	src/freertos_hook.c \
